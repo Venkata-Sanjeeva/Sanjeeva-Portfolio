@@ -1,0 +1,100 @@
+
+ul{
+    float: right;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    list-style: none;
+}
+a {
+    color: #ffffff;
+    padding: 1rem;
+}
+#aboutme{
+    line-height: 2rem;
+}
+#projects{
+    line-height: 2rem;
+}
+#contact{
+    line-height: 2rem;
+}
+#certifications{
+    line-height: 2rem;
+    margin-bottom: 6rem;
+}
+.linkedin{
+    color:#ffffff;
+}
+body {
+      background-image: url('https://helios-i.mashable.com/imagery/articles/03YdX6DpDbpI8LRuVEOC4vp/images-2.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+      background-size: cover; /* This ensures that the background image covers the entire viewport */
+      background-position: center; /* Center the background image */
+      background-attachment: fixed; /* This makes the background image fixed while scrolling */
+      color: white;
+}
+
+header {
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    line-height: 11.75;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+section {
+    line-height: 11.75;
+    padding: 2rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.cards{
+    
+    height: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    padding: 1rem;
+    height: 15rem;
+    width: 200px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+img{
+    width:100%;
+    border-radius:8px;
+}
+img:hover{
+    scale:1.1;
+    transition: ease 0.5s;
+}
+.title{
+    line-height: 1px;
+    font-family: cursive;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.desc{
+    line-height: 1.2;
+    font-family: cursive;
+    font-size: 0.8rem;
+    text-align: center;
+}
